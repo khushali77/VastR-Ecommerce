@@ -1,0 +1,19 @@
+body{
+  background-color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  color: black !important;
+}
+
+.navbar-light .navbar-brand{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color:rgba(238, 236, 236, 0.966);
+}
