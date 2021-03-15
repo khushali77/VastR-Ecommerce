@@ -16,7 +16,7 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  background-color:rgba(238, 236, 236, 0.966);
+  background-color:rgba(255, 255, 255, 0.966);
 }
 
 .nav__right img{
@@ -24,17 +24,52 @@ body{
   width: 30px;
 }
 
+.dropdown .dropdown-menu {
+  background-color: #f8f9fa!important;
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
 .app__video{
-  position: absolute;
   width: 100%;
   left: 50%;
   top: 50%;
-  height: 100%;
-  object-fit: cover;
-  transform: translate(-50%,-50%);
-  z-index: -1;
+  
+  margin-bottom: 0px;
 }
+
+.sections{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.sections h2{
+  margin: 22px;
+  font-size: 40px;
+}
+
+.sections img{
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+.brand__car{
+  padding:25px;
+  background-color: #D5D7CC;
+}
+
+.brand__prod{
+  padding:25px;
+  background-color: #F6D5B6;
+}
+
+.brand__cat{
+  padding:25px;
+  background-color: #D5D7CC;
+}
+
