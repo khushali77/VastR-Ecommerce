@@ -7,13 +7,14 @@ import {brands,breakPoints,prod,cat} from "../data";
 function Home(){
     return(
         <div className="app__home">
+            <div className="app__main">
             <div className="search__bar">
-                
+                <input type="input" placeholder="Search here"></input>
             </div>
             <video className="app__video" autoPlay muted loop>
                 <source src={Video2} type="video/mp4"/>
             </video>
-            
+            </div>
             <div className="sections">
             <div className="section__category">
                     <h2>Shop by Category</h2>
